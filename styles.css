@@ -1,6 +1,68 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --primary-color:#FCD34D;
+    --secondary-color:#D1D5DB;
+    --highlight-color:#FBBF24;
+}
+body {
+    font-family: 'Kalam', cursive;
+    margin: 0rem;
+}
+
+.header {
+    background-color: var(--primary-color);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+.header h2{
+    margin: 0rem;
     text-align: center;
 }
-textarea{
-    width: 70vw;
+
+.container{
+    max-width: 500px;
+    padding: 0rem 1rem;
+    margin: auto;
+}
+
+.container textarea{
+    width: 100%;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+}
+
+.container button{
+    padding: 0.5rem 1rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+    background-color: var(--primary-color);
+    border: none;
+    margin: 0rem 0rem 0.5rem 0rem;
+}
+
+.container button:hover{
+    background-color: var(--highlight-color);
+}
+
+.container p{
+    padding: 0;
+    margin: 0;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    margin-top: 0.6rem;
+    margin-bottom: 0rem;
+    padding: 0.6rem;
+}
+.footer div{
+    font-size: x-large;
+    text-align: center;
+}
+.footer p{
+    display: block;
+    margin: 0.25rem auto 0rem auto;
+    max-width: 600px;
+    text-align: center;
 }
